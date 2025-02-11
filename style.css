@@ -29,19 +29,21 @@ title{
 
 
   .button_home { 
-    display: flex; 
+   display: flex; 
     justify-content: center; 
     align-items: center; 
     gap: 10px; 
-    margin-top: 20px; 
-    
   }
   .btn_primary
   {
+    height: 40px;
+    width: 90px;
     color: #000;
     background-color: #e10098;
   }
   .btn_lonuevo{
+    height: 40px;
+    width: 90px;
     color: #000;
     background-color: #e10098;
    
