@@ -1,0 +1,25 @@
+body
+{
+    color: palevioletred;
+}
+title{
+    color: pink;
+}
+
+#carouselExample
+{
+   max-width: 600px;
+   min-width: 300px;
+   margin: auto;
+   border: 3px solid #000;
+
+
+}
+.carousel-inner img {
+    width: 100%; /* Para que se ajuste al contenedor */
+    height: auto; /* Mantiene la proporción */
+  }
+  .navbar-brand{
+    color: #ff4081;
+  }
+  
