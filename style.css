@@ -29,6 +29,7 @@ title{
 
 
   .button_home { 
+  
    display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -38,15 +39,15 @@ title{
   {
     height: 40px;
     width: 90px;
-    color: #000;
+    color: #fff;
     background-color: #e10098;
   }
   .btn_lonuevo{
     height: 40px;
     width: 90px;
-    color: #000;
+    color: #fff;
     background-color: #e10098;
-   
+
   }
   .anuncio{
     font-size: 20px;
@@ -55,6 +56,9 @@ title{
     color:#000;
     background-color: gainsboro;
     font-family: "Times New Roman", Times ;
+  }
+  .banner{
+    font-size: medium;
   }
  
     
