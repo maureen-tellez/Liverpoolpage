@@ -28,13 +28,19 @@ title{
   }
 
 
-  .button_home { 
-  
-   display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 10px; 
-  }
+  .button_home {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; /* Ajusta según el diseño */
+    padding: 10px 20px;
+    z-index: 1000; /* Para que quede sobre el contenido */
+    display: flex;
+    gap: 10px; /* Espaciado entre botones */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Efecto sutil */
+}
   .btn_primary
   {
     height: 40px;
@@ -50,12 +56,12 @@ title{
 
   }
   .anuncio{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     justify-content: flex-start;
     color:#000;
-    background-color: gainsboro;
-    font-family: "Times New Roman", Times ;
+    background-color: #F5F3F3;
+    font-family: "Arial", Times ;
   }
   .banner{
     font-size: medium;
